@@ -1,0 +1,40 @@
+name:
+
+on:
+  push:
+    branches:
+      -
+    tags:
+      -
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name:
+        run:
+
+      - name:
+        run:
+        env:
+          VARIABLE:
+
+
+# Vercel command:
+#   npx vercel --confirm
+#     -n ${{ secrets.PROJECT_ID }}
+#     -t ${{ secrets.TOKEN }}
+#     --scope ${{ secrets.ORG_ID }}
+#     -e
+#     -b
+
+# Railway commands:
+# npm i -g @railway/cli
+# railway up
+# RAILWAY_TOKEN: ${{ secret }}
+
+# DB_URL: postgres://user1:1234@localhost:5432/prueba
+
